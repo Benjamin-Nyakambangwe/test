@@ -1,0 +1,46 @@
+{% extends 'evaluationapp/base.html' %} {% load static %} {% block content %}
+
+<form
+  action=""
+  method="post"
+  class="upload-form"
+  id="upload-form"
+  enctype="multipart/form-data"
+>
+  {% csrf_token %}
+
+  <p class="upload-title">Edit Details</p>
+
+  <table>
+    <tr>
+      {% if messages %}
+      <ul class="messages">
+        {% for message in messages %}
+        <li class="{{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <td><label for="add-client-input">Job Title</label></td>
+      <td>{{form.job_title}}</td>
+    </tr>
+
+    <tr>
+      <td><label for="id_grade">Grade</label></td>
+      <td>{{form.grade}}</td>
+    </tr>
+
+    <tr>
+      <td><label for="id_is_grade_correct">Grade Correct?</label></td>
+      <td>{{form.is_grade_correct}}</td>
+    </tr>
+
+    <tr>
+      <td><label for="id_correct_grade">Correct Grade</label></td>
+      <td>{{form.correct_grade}}</td>
+    </tr>
+  </table>
+
+  <input type="submit" class="btn-cust" id="submit-btn" value="Save" />
+</form>
+
+{% endblock content %}

@@ -1,0 +1,53 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+
+{% block content %}
+					<h3 id="form-title" class="login-title">REGISTER ACCOUNT</h3>
+			
+
+					<form method="POST" action="" class="login-form" style="width: 40%;">
+                        <img src="{% static 'img/Hub_logo.png' %}" alt="" srcset="" class="login-img">
+                        <div class="form-inner">
+						{% csrf_token %}
+
+                        <div class="input-group">
+                            <!-- <input type="text" name="username" id="username" placeholder="Username"> -->
+                            {{form.username}}
+                        </div>
+                        <div class="input-group">
+                            <!-- <input type="text" name="username" id="username" placeholder="Username"> -->
+                            {{form.email}}
+                        </div>
+                        <div class="input-group">
+                            <!-- <input type="text" name="username" id="username" placeholder="Password"> -->
+                            {{form.password1}}
+                        </div>
+                        <div class="input-group">
+                            <!-- <input type="text" name="username" id="username" placeholder="Password Confirm"> -->
+                            {{form.password2}}
+                        </div>
+                        <input type="submit" class="btn btn-submit" name="create user">
+                        </div>
+
+                        <div class="mt-4 d-flex justify-content-center links">
+                            <a href="/accounts/login/" style="text-decoration: none; color: #23395B; margin-top: 8px;">Already have an account?</a>
+                        </div>
+					</form>
+
+				{{form.errors}}
+				
+
+                <script>
+                    var form_fields = document.getElementsByTagName('input')
+                    form_fields[1].placeholder='Username';
+                    form_fields[2].placeholder='Email';
+                    form_fields[3].placeholder='Enter password';
+                    form_fields[4].placeholder='Confirm Password';
+                  
+                  
+                    for (var field in form_fields){	
+                    form_fields[field].className += ' form-control'
+                    }
+                  </script>
+
+                {% endblock content %}

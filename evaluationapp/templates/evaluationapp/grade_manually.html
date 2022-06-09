@@ -1,0 +1,117 @@
+{% extends 'evaluationapp/base.html' %}
+
+{% load static %}
+
+
+{% block content %}
+
+<div class="container">
+    <div class="container text-center">
+      <h2 class="upload-title">Rate Your Job Description</h2>
+    </div>
+    
+    <div class="container text-center form-container">
+        <!-- Form -->
+        <form action="" method="post" class="form" id="myform">
+          {% csrf_token %}
+          <div class="progressbar">
+              <div class="progress" id="progress"></div>
+  
+              <div class="progress-step progress-step-active"></div>
+              <div class="progress-step"></div>
+              <div class="progress-step"></div>
+          </div>
+
+          <!-- form step -->
+          <div class="form-step form-step-active">
+              <div class="input-group">
+                  <label for="id_job_title">Job Title</label>
+                  {{ form.job_title }}
+              </div>
+
+              <div class="input-group">
+                  <label for="id_academic_qualifications">Academic Qualifications</label>
+                  {{ form.academic_qualifications }}
+              </div>
+
+              <div class="input-group">
+                  <label for="id_purpose">Purpose</label>
+                  {{ form.purpose }}
+              </div>
+
+              <div class="">
+        <form action="" method="post" class="form" id="myform">
+                  <a href="#myform" class="btn-cust btn-next width-50 ml-auto">
+                      Next
+                  </a>
+              </div>
+          </div>
+          <!-- end form step -->
+
+          <!-- form step -->
+          <div class="form-step">
+              <div class="input-group">
+                  <label for="id_experience_in_years">Experience in years</label>
+                  {{ form.experience_in_years }}
+              </div>
+
+              <div class="input-group">
+                  <label for="id_main_duties">Main Duties</label>
+                  {{ form.main_duties }}
+              </div>
+
+              <div class="input-group">
+                  <label for="id_purpose">Technical competence required</label>
+                  {{ form.technical_competence_required }}
+              </div>
+
+              <div class="btns-group">
+                  <a href="#myform" class="btn-cust btn-prev">
+                      Previous
+                  </a>
+  
+                  <a href="#myform" class="btn-cust btn-next">
+                      Next
+                  </a>
+              </div>
+          </div>
+          <!-- end form step -->
+
+
+          <!-- form step -->
+          <div class="form-step">
+              <div class="input-group">
+                  <label for="id_experience_in_years">Minimum professional qualifications</label>
+                  {{ form.min_prof_qualifications }}
+              </div>
+
+              <div class="input-group">
+                  <label for="id_main_duties">Key decisions</label>
+                  {{ form.key_decisions }}
+              </div>
+
+              <div class="input-group">
+                  <label for="id_experience_in_years">Planning required</label>
+                  {{ form.planning_required }}
+              </div>
+
+              <div class="btns-group">
+                  <a href="#myform" class="btn-cust btn-prev">Previous</a>
+                  <input type="submit" value="Submit" class="btn-cust">
+              </div>
+          </div>
+          <!-- end form step -->
+
+        </form>
+
+      <!-- End form -->
+      
+    </div>
+
+
+   
+  </div>
+
+{% endblock content %}
+
+    

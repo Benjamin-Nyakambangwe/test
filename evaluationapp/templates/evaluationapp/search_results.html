@@ -1,0 +1,26 @@
+{% extends 'evaluationapp/base.html' %} {% load static %} {% block static %}
+
+<div class="companies-wrapper">
+  <p class="upload-title">Search results</p>
+
+  <table class="client-descriptions-table">
+    <tr>
+      <th>Client name</th>
+      <th>Descriptions</th>
+    </tr>
+    {% for comp in object_list %}
+
+    <tr>
+      <td>
+        <a href="{% url 'graded-description-list' pk=comp.pk %}"
+          >{{comp.company_name}}</a
+        >
+      </td>
+      <td>{{comp.number_of_jds}}</td>
+    </tr>
+
+    {% endfor %}
+  </table>
+</div>
+
+{% endblock static %}

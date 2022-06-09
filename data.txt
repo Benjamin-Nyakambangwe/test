@@ -1,0 +1,938 @@
+Page 1
+---------------------------------------------------------------------------------------------------- 
+ 
+JOB DESCRIPTION
+ 
+Internal Use
+-
+Confidential
+ 
+ 
+ 
+ 
+Title of Position
+:
+ 
+Business Systems 
+Manager
+ 
+______________________________________________________________________________
+ 
+Title of Immediate Supervisor:
+ 
+ICT Executive
+ 
+__________________________________________________________
+____________________
+ 
+Titles of Direct Subordinate(s):
+ 
+ 
+Data and Analytics Lead, Project and Systems 
+C
+o
+ordinator, DevOps and Support Systems Engineer, 
+Service Delivery Specialist
+ 
+__________________________________
+_____________________________________
+_____
+__
+ 
+Location
+:
+ 
+Harare
+ 
+__________________________________
+_____________________________________
+_____
+__
+ 
+ 
+SECTION A: 
+REPORTING RELATIONSHIP
+ 
+ 
+ORGANOGRAM
+ 
+ 
+ 
+ 
+BAND
+ 
+GRADE
+ 
+SUB 
+GRADE
+ 
+ 
+ 
+ 
+ 
+
+nd
+ 
+LEVEL)
+ 
+
+ 
+FINANCE DIRE
+CTOR
+ 
+
+ 
+
+ 
+BUSINESS SYSTEMS 
+MANAGER
+ 
+ 
+ 
+
+st
+ 
+LEVEL)
+ 
+
+ 
+DATA AND ANALYTICS LEAD, PROJECTS AND 
+SYSTEMS COORDINATOR, DEVOPS AND SUPPORT ENGINEER, 
+SERVICE DELIVERY SPECIALIST
+ 
+ 
+IT
+ 
+GRADUATE TRAINEE(S)
+ 
+ 
+
+IOR (1
+st
+ 
+LEVEL)
+ 
+
+ 
+ICT EXECUTIVE
+ 
+ 
+ 
+Page 2
+---------------------------------------------------------------------------------------------------- 
+ 
+JOB DESCRIPTION
+ 
+Internal Use
+-
+Confidential
+ 
+SECTION B: 
+OVERALL PURPOSE
+ 
+In consultation with the ICT Executive, to develop the
+ 
+ICT strategy and plan, coordinate, 
+and design ICT
+-
+related activities that enable the business to achieve its overall strategic 
+objectives. 
+To continuously monitor developments in technology and identify those 
+appropriate for use in the group.
+ 
+The incumben
+t
+ 
+define
+s
+, manage
+s
+ 
+and implement
+s
+ 
+ICT 
+procedures in line with best practices.
+  
+ 
+ 
+ 
+ 
+SECTION C: 
+MAIN DUTIES & RESPONSIBILITIES
+ 
+ 
+MAIN DUTY AND RESPONSIBILITY
+ 
+PERFORMANCE 
+STANDARD
+ 
+STRATEGIC
+ 
+
+ 
+Identify
+, procure, design and implement appropriate Information Techn
+ologies 
+that help SHAL in meeting business requirements.
+ 
+
+ 
+Provide
+ 
+in
+put into the Supply Chain department for 
+the selection and 
+relationship management of IT suppliers in line with Supply Chain Framework.
+ 
+
+ 
+Provide ICT capability development to SHAL.
+ 
+
+ 
+Participa
+te in the overall SHAL Strategy formulation as a technology resource 
+as well as a secretariat member.
+ 
+ 
+ICT Strategy Document
+ 
+Projects Register
+ 
+ 
+INNOVATION
+ 
+
+ 
+Monitor 
+technological 
+trends,
+ 
+innovations, automation that SHAL can adopt to 
+simplify processes
+; Tra
+nslate opportunities into actionable projects
+. 
+ 
+
+ 
+Provide input into group acquisition projects to ensure compatibility with 
+existing systems, for ease of integrations 
+ 
+ 
+Completed
+ 
+projects 
+ 
+BUSINESS SYSTEMS SUPPORT
+ 
+
+ 
+Provide administrative and end
+-
+user suppor
+t for business systems 
+(incl. ERP 
+and
+ 
+related add
+-
+on applications, Fiscalisation solutions
+, BI & Reporting 
+solutions, Payroll systems, etc.
+)
+ 
+
+ 
+Manage 
+access into 
+SHAL applications
+ 
+systems
+ 
+and ensure appropriate 
+segregation of roles are maintained
+ 
+
+ 
+Give input 
+into Internal and External Auditors to facilitate their auditing 
+activities 
+ 
+
+ 
+Develop processe
+s
+ 
+to monitor and 
+promote
+ 
+utilization of ICT solutions by the 
+business 
+ 
+
+ 
+Give input into the group Business Continuity Plans and Disaster Recovery 
+ 
+Customer satisfaction
+ 
+Number of access breaches
+ 
+Audit 
+process & 
+findings
+ 
+Page 3
+---------------------------------------------------------------------------------------------------- 
+ 
+JOB DESCRIPTION
+ 
+Internal Use
+-
+Confidential
+ 
+MAIN DUTY AND RESPONSIBILITY
+ 
+PERFORMANCE 
+STANDARD
+ 
+plans to ensure ap
+propriate investments are made to guarantee availability and 
+recoverability
+ 
+of systems
+ 
+
+ 
+Ensure adequate support and resources are availed for Remote Working
+ 
+
+ 
+Attend SBU
+s
+ 
+Management Committee meetings
+ 
+as technology resource and to 
+
+unities
+.
+ 
+SERVICE DESK
+ 
+
+ 
+Ensure all issues requiring ICT support are recorded in the 
+Service
+ 
+Desk 
+systems
+ 
+
+ 
+Ensure timely resolution of all issues as assigned in 
+Service
+ 
+Desk systems
+ 
+
+ 
+Tra
+ck own 
+and team Service
+ 
+Desk performance metrics to ensure ICT 
+department meets business support objectives
+ 
+
+ 
+Identify and recommend appropriate
+ 
+ICT
+ 
+resourc
+es
+ 
+for associates
+ 
+
+ 
+Manage 
+ICT team assignments 
+to 
+ensure on
+-
+site presence is attained 
+according 
+to sche
+dule plans
+ 
+ 
+Performance reviews
+ 
+C
+losure
+ 
+rate
+ 
+of logs
+ 
+Response times 
+ 
+Specific KPIs
+ 
+ADMINISTRATION AND HR
+ 
+
+ 
+Manage the administrative activities of subordinates through direct reports, 
+performance reviews, coaching and mentoring.
+ 
+
+ 
+Provide ICT capability devel
+opment
+.
+ 
+
+ 
+Identify and participate in the recruitment of competent 
+IT resources
+.
+ 
+
+ 
+Conduct performance appraisals and 
+ensure attainment of set objectives and 
+provide performance feedback
+ 
+ 
+Performance reviews
+ 
+COMPLIANCE
+ 
+
+ 
+Ensure all Licen
+sed
+ 
+systems are valid
+ 
+an
+d regulatory requirements
+ 
+are adhered 
+to
+. 
+Engage 
+stakeholders and manage the license acquisition or renewal process.
+ 
+
+ 
+Manage environment in compliance to set policies
+ 
+and objectives
+ 
+ 
+No expiries
+ 
+Zero repeat
+ 
+Audit findings
+ 
+QUALITY, ENVIRONMENT, OCCUPATIONAL
+ 
+SAFETY AND HEALTH 
+ 
+Management Systems and QEOSH Commitment 
+ 
+Carry out all duties with regards to effective implementation, maintenance and 
+improvement of SHAL management systems including:
+ 
+
+ 
+Quality Management Systems Standards (ISO 9001:2015)
+ 
+
+ 
+Occupational 
+Health and Safety Systems Standards (ISO 45001:2018)
+ 
+
+ 
+Environmental Management Systems Standards (ISO 14001: 2015)
+ 
+
+ 
+Food Safety Systems Standards (FSSC 22000)
+ 
+
+ 
+Coca
+-
+Cola KORE Requirements
+ 
+
+ 
+Information Security Management System (ISO/IEC27001)
+ 
+
+ 
+IT Service Manage
+ment (ISO20000)
+ 
+ 
+ 
+Maintain certification
+ 
+Zero repeat findings
+ 
+Page 4
+---------------------------------------------------------------------------------------------------- 
+ 
+JOB DESCRIPTION
+ 
+Internal Use
+-
+Confidential
+ 
+MAIN DUTY AND RESPONSIBILITY
+ 
+PERFORMANCE 
+STANDARD
+ 
+
+ 
+COVID
+-
+19 Regulations
+ 
+TRAINING & DEVELOPMENT
+ 
+
+ 
+Manage
+ 
+IT training
+ 
+plans
+ 
+for the business
+ 
+and ensure appropriate resources are 
+assigned
+.
+ 
+
+ 
+Adhere to personal development plans
+ 
+ 
+Training Plans
+ 
+Persona
+l development 
+plans
+ 
+BUDGET CONTROL
+ 
+
+ 
+Input into ICT budgetary process for SHAL
+ 
+
+ 
+Ensure team activities and acquisitions are performed within set budgets 
+ 
+
+ 
+Manage departmental expenditure and execute the budget
+ 
+ 
+ICT Annual budget
+ 
+Budget variance
+ 
+ 
+SECTION D: 
+D
+ECISION MAKING
+;
+ 
+
+ 
+Provide decision support on strategic company information that Business Executive
+s 
+in the SBUs use to make relevant decisions.
+ 
+
+ 
+Decisions related to resources and resource allocation.
+ 
+
+ 
+Appropriate technological applications and resource
+ 
+to
+ 
+ac
+quire and/or
+ 
+implement to 
+best meet company requirements
+.
+ 
+
+ 
+Recommendations on p
+urchasing decisions 
+ 
+
+ 
+To give support in absence of ICT Executive.
+ 
+
+ 
+Decision on designing of relevant custom 
+solutions
+ 
+in response to changing business 
+needs.
+ 
+
+ 
+Determines 
+business
+ 
+t
+raining needs 
+ 
+ 
+SECTION E: 
+PROBLEM SOLVING
+ 
+Typical problems experienced in this position include the following: 
+ 
+
+ 
+Articulate business requirements into technological solutions.
+ 
+
+ 
+Ability to communicate
+ 
+technology to all levels in the SBU in business case rati
+onale.
+ 
+
+ 
+Must have ability to work with limited r
+esources. 
+ 
+
+ 
+Working with cross functional teams in all levels and geographical locations of the 
+company.
+ 
+
+ 
+Increase ICT usage and utilization within 
+SHAL
+. 
+ 
+ 
+Page 5
+---------------------------------------------------------------------------------------------------- 
+ 
+JOB DESCRIPTION
+ 
+Internal Use
+-
+Confidential
+ 
+SECTION F: 
+PLANNING REQUIRED
+ 
+ 
+The incumbent must be abl
+e to plan issues related to the following:
+ 
+
+ 
+Technology refresh through acquisition/ replacement, and resource allocation within 
+SHAL
+ 
+
+ 
+User training needs and plans.
+ 
+
+ 
+Fiscalisation activities to comply to regulatory requirements
+ 
+
+ 
+IT 
+Strategic planning in prepar
+ation for the 
+SHAL and 
+SBU
+s
+ 
+strategic planning 
+process
+es.
+ 
+
+ 
+Weekly plans associated with running projects.
+ 
+
+ 
+Budgetary planning.
+ 
+
+ 
+Project Plans
+ 
+
+ 
+Depot visit plans
+ 
+
+ 
+Adherence to Business reporting cycles
+ 
+ 
+SECTION G: 
+SUPERVISORY RESPONSIBILITY
+ 
+a.
+ 
+Supervision Given
+ 
+Job
+ 
+Title Of Direct Subordinate(s)
+ 
+Method And Frequency Of Supervision
+ 
+Data and Analytics Lead, Project and 
+Systems C
+o
+ordinator, DevOps and 
+Support Systems Engineer, 
+Service 
+Delivery Specialist
+ 
+ 
+Quarterly performance review of direct 
+reports,
+ 
+Monthly revie
+w of performance reports
+ 
+Weekly updates on Projects 
+Statuses
+ 
+Weekly review of activity in Service desk 
+systems
+ 
+Internal and external audit report analysis 
+
+ 
+annual
+, as required
+ 
+Departmental meetings
+ 
+& Coaching
+ 
+ 
+ 
+b.
+ 
+Supervision Received
+ 
+Job Title Of I
+mmediate Supervisor(s)
+ 
+Method And Frequency Of Supervision
+ 
+ICT Executive
+ 
+Formal/Informal meeting and discussions
+ 
+Reports monthly 
+
+ 
+Opex/Capex vs budget, 
+ 
+Reports on project statuses.
+ 
+Monthly and Quarterly reviews
+ 
+Planned activities executed efficiently 
+and 
+Page 6
+---------------------------------------------------------------------------------------------------- 
+ 
+JOB DESCRIPTION
+ 
+Internal Use
+-
+Confidential
+ 
+effectively as measured by service desk.
+ 
+Participation in select GEC review meetings
+ 
+Acting opportunities
+ 
+Coaching
+ 
+Formal/Informal meeting and discussions
+ 
+ 
+SECTION H: 
+WORKPLACE HAZARDS FACED BY EMPLOYEE
+ 
+ 
+
+ 
+Emotional strain (occupational & emotional st
+ress, depression, conflict & abuse 
+(when supporting clients), long hours (impacting work
+-
+life
+-
+balance)
+ 
+
+ 
+Ergonomics 
+
+ 
+(postures, Repetitive Strain Injury (RSI), Computer Vision 
+Syndrome)
+ 
+
+ 
+Physical Hazards (tripping, electrocution)
+ 
+
+ 
+Lockouts/ tagouts
+ 
+
+ 
+Radiation
+ 
+ 
+SECTION 
+I
+: 
+ACADEMIC QUALIFICATION
+/TRAINING REQUIRED
+ 
+FOR 
+THE POSITION
+ 
+a.
+ 
+Academic Qualification
+ 
+and Experience
+ 
+
+ 
+
+ 
+
+ 
+A
+n MBA, MDP or EDP or
+ 
+qualification in Finance or a business operations 
+discipline
+ 
+is an added advantage
+ 
+ 
+At least 
+5
+ 
+years
+
+ 
+experience in 
+IT service provision, 
+Systems Development, 
+ERP support, 
+Project Management with at least 2 of these in a management role. Experience in 
+food 
+manufacturing industry with direct involvement in 
+systems s
+upport is an advantage
+.
+ 
+ 
+Specific Competencies R
+equired
+ 
+
+ 
+Strong analytical and problem solving skills
+ 
+
+ 
+Excellent customer relations
+ 
+
+ 
+A good understanding of the business processes
+ 
+
+ 
+Staff Management Skills
+ 
+
+ 
+ERP implementation and support
+ 
+
+ 
+Time and Change
+ 
+Manageme
+nt 
+ 
+ 
+Page 7
+----------------------------------------------------------------------------------------------------  JOB DESCRIPTION
+ Internal Use
+-Confidential
+ b. Additional Training Required
+  A good understanding of the business processes
+  Change Management 
+  Budgeting and budget control
+  ERP
+  Project Management
+  SECTION 
+J: CRITICAL OR TECHNICAL COMPETENCIES REQUIRED
+ Technical Proficiency
+  Specific on
+-going training
+ on solutions deployed in SHAL
+  Specific Competencies
+  Excellent customer relations
+  Effective communication skills 
+  Budget control
+  Leadership skills
+  CONFIRMATION OF JOB DESCRIPTION
+  Agreed by Incumbent (Name)                         (Signature)            
+                            
+Date
+  Agreed by Supervisor (Name)                          (Signature)                                      Date
+ 

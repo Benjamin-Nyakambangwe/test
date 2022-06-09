@@ -1,0 +1,23 @@
+{% extends 'evaluationapp/base.html' %} {% load static %} {% block content %}
+
+<div class="detail-title">
+  <p class="upload-title">{{ object.job_title }}</p>
+  <div class="title-buttons">
+    <a href="{% url 'job-description-update' pk=object.id %}" class="btn-cust"
+      >Add correct grade</a
+    >
+    <a href="{% url 'delete-jd' pk=object.id %}" class="btn-delete">Delete</a>
+  </div>
+</div>
+
+<p>Client name: {{object.company_name.company_name}}</p>
+<p>Grade: <span class="text-success">{{object.grade}}</span></p>
+{% if object.correct_grade %}
+<p>Correct grade: {{object.correct_grade}}</p>
+{% endif %}
+<p>Academic Qualifications: {{object.academic_qualifications}}</p>
+<p>Experience in years: {{object.experience_in_years|floatformat:2}}</p>
+<p><strong>Purpose</strong></p>
+<p>{{object.purpose}}</p>
+
+{% endblock content %}

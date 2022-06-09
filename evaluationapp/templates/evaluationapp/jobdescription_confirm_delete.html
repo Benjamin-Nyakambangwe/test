@@ -1,0 +1,9 @@
+{% extends 'evaluationapp/base.html' %} {% load static %} {% block content %}
+
+<form method="post">
+  {% csrf_token %}
+  <p>Are you sure you want to delete: {{object}}?</p>
+  <input type="Submit" value="Delete" class="btn-delete" />
+</form>
+
+{% endblock content %}

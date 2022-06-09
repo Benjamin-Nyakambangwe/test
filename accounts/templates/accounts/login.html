@@ -1,0 +1,46 @@
+{% extends 'accounts/base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <p class="login-title">Login</p>
+
+    <form method="POST" class="login-form">
+
+
+        <img src="{% static 'img/Hub_logo.png' %}" alt="" srcset="" class="login-img">
+
+        <div class="form-inner">
+            {% if messages %}
+                <ul class="messages">
+                    {% for message in messages %}
+                        <li class="{{ message.tags }}">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            
+            {% csrf_token %}
+
+            <div class="input-group">
+                <input type="text" name="username" id="username" placeholder="Username">
+            </div>
+
+            <div class="input-group">
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+
+            <input type="submit" class="btn btn-submit">
+
+        </div>
+
+            <div class="mt-4 d-flex justify-content-center links">
+                <a href="/accounts/register/" style="text-decoration: none; color: #23395B; margin-top: 8px;">Not yet registered</a>
+            </div>
+            <div class="mt-4 d-flex justify-content-center links">
+                <a href="/accounts/reset_password/" style="text-decoration: none; color: #23395B; margin-top: 8px;">Forgot your password?</a>
+            </div>
+
+
+    </form>
+
+{% endblock content %}

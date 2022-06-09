@@ -1,0 +1,164 @@
+{% extends 'evaluationapp/base.html' %} {% block content %}
+
+<div aria-live="polite" aria-atomic="true" class="position-relative">
+  <div class="toast-container top-0 end-0 p-3">
+    <!--Check if there are any logs-->
+    {% if log %}
+  
+    <!---If there are logs, display them-->
+    {% for v in log %}
+
+    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+      <!-- Display file name in header-->
+      <div class="toast-header">
+        <strong class="me-auto">{{v.file}}</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <!--Display log message-->
+      <div class="toast-body bg-dark text-white">
+        {% if v.error == "local variable 'ac_qualifications_result' referenced before assignment" %} 
+          <strong class="text-danger">Error!</strong> Please check your qualifications
+        {% else %}
+        {{v.error}}
+        {% endif %}
+      </div>
+    </div>
+      
+    {% endfor %}
+      
+    {% endif %}
+
+
+
+  </div>
+</div>
+  
+
+<div class="companies-wrapper">
+  <h1 class="upload-title">{{object.company_name}} Job Descriptions</h1>
+
+  
+
+
+  
+  <div class="filter-modal" id="filter-modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form action="{% url 'filter-description' %}" method="get">
+
+        <label for="filter-select">Job Title</label>
+        <select name="filter-select" id="filter-select" multiple>
+          {% for value in object_list %}
+            <option value="{{value.job_title}}">{{value.job_title}}</option>
+          {% endfor %}
+        </select>  
+
+        <p class="instruction">Press <strong>Ctrl</strong> to multi-select.</p>
+
+  
+  
+        <input type="hidden" name="company-hidden" value="{{object.company_name}}">
+        
+        <label for="from-date">From</label>
+        <input type="date" name="from-date" id="from-date">
+        <label for="to-date">To</label>
+        <input type="date" name="to-date" id="to-date">
+        <input type="submit">
+      </form>
+    </div>
+    
+  </div>
+  
+
+  <div class="report-btn-div">
+    <button id="filter-btn"><i class="bi-sliders"></i> Filter</button>
+    <a href="{% url 'file-download' %}" class="report-btn"><i class="bi-cloud-download"></i> Download Report</a>
+  </div>
+
+  <table class="client-descriptions-table">
+    <tr>
+      <th>Job Title</th>
+      <th>Grade</th>
+      <th>Actual Grade</th>
+      <th>Actions</th>
+    </tr>
+    {% for desc in object_list %}
+
+    <tr>
+      <td><a href="{% url 'job-description-detail' pk=desc.id%}">{{ desc.job_title }}</a></td>
+      <td>{{ desc.grade }}</td>
+      <td>
+        {% if desc.correct_grade %}
+          {{desc.correct_grade}}
+        {% else %}
+        -
+        {% endif %}
+      </td>
+      <td>
+        <a href="{% url 'job-description-update' pk=desc.id %}" data-toggle="tooltip" data-placement="top" title="Add Actual Grade"><i class="bi-plus-circle-fill"></i></a>
+        <a href="{% url 'delete-jd' pk=desc.id %}" data-toggle="tooltip" data-placement="top" title="Delete record"><i class="bi-trash-fill"></i></a>
+      </td>
+    </tr>
+    {% endfor %}
+
+
+  </table>
+
+    
+  </ul>
+</div>
+
+
+
+<div class="pagination">
+  <span class="current">
+    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+  </span>
+  <span class="step-links">
+      {% if page_obj.has_previous %}
+          <a href="?page=1">&laquo; first</a>
+          <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+      {% endif %}
+
+      {% if page_obj.has_next %}
+          <a href="?page={{ page_obj.next_page_number }}">next</a>
+          <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+      {% endif %}
+  </span>
+</div>
+
+
+<script>
+  // Get the modal
+  var modal = document.getElementById("filter-modal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("filter-btn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+<script>
+  $(document).ready(function() {
+      $(".toast").toast('show');
+  });
+</script>
+{% endblock content %}

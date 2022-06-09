@@ -1,0 +1,64 @@
+{% extends 'evaluationapp/base.html' %} {% load static %} {% block content %}
+
+<form
+  action=""
+  method="post"
+  class="upload-form"
+  id="upload-form"
+  enctype="multipart/form-data"
+>
+  {% csrf_token %}
+
+  <p class="upload-title">Rate Multiple Job Descriptions</p>
+
+  <table>
+    <tr>
+      {% if messages %}
+      <ul class="messages">
+        {% for message in messages %}
+        <li class="{{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <td><label for="add-client-input">Add new client</label></td>
+      <td>
+        <input
+          type="text"
+          placeholder="Add new client"
+          name="add-client-input"
+          id="add-client-input"
+        />
+      </td>
+    </tr>
+
+    <tr>
+      <td><label for="client-select">Select Client</label></td>
+      <td>
+        <select name="client-select" id="client-select">
+          <option value="none">----</option>
+          {% for client in available_clients %}
+          <option value="{{client.company_name}}">
+            {{client.company_name}}
+          </option>
+          {% endfor %}
+        </select>
+      </td>
+    </tr>
+  </table>
+
+  <p>
+    <label>Browse and select one or more files</label>&nbsp;&nbsp;
+    <input
+      type="file"
+      name="files"
+      id="files"
+      autocomplete="off"
+      required
+      multiple
+    />
+  </p>
+
+  <input type="submit" class="btn-cust" id="submit-btn" value="Upload" />
+</form>
+
+{% endblock content %}

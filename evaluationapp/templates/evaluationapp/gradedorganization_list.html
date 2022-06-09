@@ -1,0 +1,55 @@
+{% extends 'evaluationapp/base.html' %} {% block content %}
+
+<div class="companies-wrapper">
+  <p class="upload-title">Graded organizations</p>
+
+  <div class="search-div">
+    <form action="{% url 'search-company' %}" class="search-form" method="get">
+      <input type="text" name="search" id="search" placeholder="Search Company...">
+      <input type="submit" class="btn-cust" value="Search">
+    </form>
+  </div>
+
+  
+
+
+  <table class="client-descriptions-table">
+    <tr>
+      <th>Client name</th>
+      <th>Descriptions {{test}}</th>
+    </tr>
+    {% for comp in object_list %}
+
+    <tr>
+      <td>
+        <a href="{% url 'graded-description-list' pk=comp.pk %}"
+          >{{comp.company_name}}</a
+        >
+      </td>
+      <td>{{comp.number_of_jds}}</td>
+    </tr>
+
+    {% endfor %}
+  </table>
+</div>
+
+
+
+<div class="pagination">
+  <span class="current">
+    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+  </span>
+  <span class="step-links">
+      {% if page_obj.has_previous %}
+          <a href="?page=1">&laquo; first</a>
+          <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+      {% endif %}
+
+      {% if page_obj.has_next %}
+          <a href="?page={{ page_obj.next_page_number }}">next</a>
+          <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+      {% endif %}
+  </span>
+</div>
+
+{% endblock content %}

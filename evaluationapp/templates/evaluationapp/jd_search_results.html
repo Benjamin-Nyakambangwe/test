@@ -1,0 +1,88 @@
+{% extends 'evaluationapp/base.html' %} {% block content %}
+
+<div class="companies-wrapper">
+  <h1 class="upload-title">Search Results</h1>
+
+  {% if object_list %}
+  <div class="report-btn-div">
+    <a
+      href="{% url 'graded-description-list' pk=object_list.0.company_name.id %}"
+      class="clear-filter-link"
+      ><i class="bi-x-octagon-fill"> Clear Filters</i></a
+    >
+
+    <a href="{% url 'file-download' %}" class="report-btn"
+      ><i class="bi-cloud-download"></i> Download Report</a
+    >
+  </div>
+
+  <table class="client-descriptions-table">
+    <tr>
+      <th>Job Title</th>
+      <th>Grade</th>
+      <th>Actual Grade</th>
+      <th>Actions</th>
+    </tr>
+    {% for desc in object_list %}
+
+    <tr>
+      <td>
+        <a href="{% url 'job-description-detail' pk=desc.id %}"
+          >{{ desc.job_title }}</a
+        >
+      </td>
+      <td>{{ desc.grade }}</td>
+      <td>
+        {% if desc.correct_grade %} {{desc.correct_grade}} {% else %} - {% endif %}
+      </td>
+      <td>
+        <a
+          href="{% url 'job-description-update' pk=desc.id %}"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Add Actual Grade"
+          ><i class="bi-plus-circle-fill"></i
+        ></a>
+        <a
+          href="{% url 'delete-jd' pk=desc.id %}"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Delete record"
+          ><i class="bi-trash-fill"></i
+        ></a>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  {% else %} No results found {% endif %}
+</div>
+<script>
+  // Get the modal
+  var modal = document.getElementById("filter-modal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("filter-btn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function () {
+    modal.style.display = "block";
+  };
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+  };
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+</script>
+
+{% endblock content %}

@@ -1,0 +1,24 @@
+{% extends 'evaluationapp/base.html' %} {% load static %} {% block content %}
+<table class="grading-table">
+  <thead>
+    <tr>
+      <th scope="col">Job Description</th>
+      <th scope="col">Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for job in job_desc %} {% if job.id == last_job_added.id %}
+    <tr class="bg-success">
+      <td class="text-white">{{job.job_title}}</td>
+      <td class="text-white">{{job.grade}}</td>
+    </tr>
+
+    {% else %}
+    <tr>
+      <td>{{job.job_title}}</td>
+      <td>{{job.grade}}</td>
+    </tr>
+    {% endif %} {% endfor %}
+  </tbody>
+</table>
+{% endblock content %}
